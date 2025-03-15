@@ -6,8 +6,6 @@ package("EngineSquared")
 
     set_urls("https://github.com/EngineSquared/EngineSquared.git")
 
-    add_requires("glfw", "glm", "spdlog", "tinyobjloader", "stb", "gtest", "entt")
-
     on_install(function (package)
         local configs = {}
         if package:config("shared") then

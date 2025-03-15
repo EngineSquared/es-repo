@@ -6,9 +6,6 @@ package("VkWrapper")
 
     set_urls("https://github.com/EngineSquared/VkWrapper.git")
 
-    add_requires("vulkan-headers", "vulkansdk", "vulkan-hpp", "glfw", "glm", "spdlog", "stb", "imgui", "entt")
-    add_requires("imgui", {configs = {vulkan = true, glfw = true}})
-
     on_install(function (package)
         local configs = {}
         if package:config("shared") then
