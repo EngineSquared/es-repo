@@ -1,4 +1,4 @@
-package("EngineSquared")
+package("engine-squared")
     set_kind("library")
     set_homepage("https://github.com/EngineSquared/EngineSquared")
     set_description("Open-source game engine written in C++")

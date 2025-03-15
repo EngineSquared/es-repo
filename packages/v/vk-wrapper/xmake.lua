@@ -1,4 +1,4 @@
-package("VkWrapper")
+package("vk-wrapper")
     set_kind("library")
     set_homepage("https://github.com/EngineSquared/VkWrapper")
     set_description("A C++ wrapper for the Vulkan API")
