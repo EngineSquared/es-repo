@@ -13,4 +13,3 @@ package("VkWrapper")
         end
         import("package.tools.xmake").install(package, configs)
     end)
-package_end()
